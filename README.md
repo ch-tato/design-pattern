@@ -197,6 +197,8 @@ Here is the information converted into a Markdown table:
 | 52-61 | The Build Method<br>`func (b *OrderBuilder) Build()...` | The final trigger that completes the process. Before returning the finished `DeliveryOrder`, it acts as a validation checkpoint. Here, it enforces the business rule that an order cannot have zero items, returning an error if validation fails. |
 | 63-88 | Client Code<br>`func main()` | Demonstrates the builder in action. Scenario A shows how clean it is to configure a complex order using chained methods. Scenario B highlights the main benefit of the pattern: for a simple order, you only call the methods you need and entirely skip the optional ones (no need to pass empty strings or boolean flags). |
 
+![output](./img/output.png)
+
 ### **Discussion**
 
 * **Validation Checkpoint:** In a production delivery system, the `Build()` method is crucial. As shown in the code, it acts as a final checkpoint to ensure the object is in a valid state (e.g., ensuring a user didn't submit an empty cart) before it is passed down the pipeline to the payment processor.
