@@ -1,3 +1,9 @@
+# Design Pattern
+
+| **Name** | **NRP** | **Class** |
+| --- | --- | --- |
+| Muhammad Quthbi Danish Abqori | 5025241036 | Software Design B |
+
 ### **The General Study Case: The Intelligent Food Delivery Platform**
 
 Imagine you are building the backend for a modern food delivery application. The system needs to handle incoming HTTP requests, manage complex user orders with endless customizations, calculate totals from complex menu structures, and track the real-time status of the delivery.
