@@ -1,4 +1,4 @@
-Here is the complete breakdown for the **Middleware** pattern, continuing with our **Intelligent Food Delivery Platform** study case.
+# Design Pattern - Middleware Pattern
 
 ### **Name**
 

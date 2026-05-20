@@ -1,4 +1,4 @@
-# Design Pattern
+# Design Pattern - Builder
 
 | **Name** | **NRP** | **Class** |
 | --- | --- | --- |
